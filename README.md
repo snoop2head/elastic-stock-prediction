@@ -2,6 +2,8 @@
 
 [🔗 Refer to blog post for more information](https://snoop2head.github.io/Dacon-Stock-Price-Competition/)
 
+[TOC]
+
 ### Goal
 
 Predicting the Closing price of 376 Korean public companies for the week of `2021-09-27 ~ 2021-10-01`.
@@ -75,7 +77,7 @@ pip3 install -r requirements.txt
 python main.py
 ```
 
-### **Authorship**
+### Authorship
 
 - [@sanghoeKim](https://github.com/sangHoeKim)
   - Created the dataset, chose and added derivative data.
