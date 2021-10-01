@@ -4,15 +4,8 @@
 
 ### Goal
 
-- Predicting the Closing price of 376 Korean public companies for the week of `2021-09-27 ~ 2021-10-01`.
-- There was no limitation for the data source.
-- Competition's criterion is based on NMAE. Criterion function was constructed as following:
-
-```python
-def NMAE(true_df, pred_df_input):
-    """ grading criterion for public leader board """
-    return (abs(true_df_copy - pred_df_input) / true_df_copy * 100).iloc[:5].values.mean()
-```
+Predicting the Closing price of 376 Korean public companies for the week of `2021-09-27 ~ 2021-10-01`.
+There was no limitation for the data source.
 
 ### Evaluation Result
 
@@ -21,6 +14,14 @@ def NMAE(true_df, pred_df_input):
 ![output](./assets/images/README/output.png)
 
 ### Models' Performance
+
+Competition's criterion is based on NMAE. Criterion function was constructed as following:
+
+```python
+def NMAE(true_df, pred_df_input):
+    """ grading criterion for public leader board """
+    return (abs(true_df_copy - pred_df_input) / true_df_copy * 100).iloc[:5].values.mean()
+```
 
 |                  Model                   | NMAE (09-06 ~ 09-10) | NMAE (09-15 ~ 09-24) | NMAE (09-27 ~ 10-01) |
 | :--------------------------------------: | :------------------: | :------------------: | :------------------: |
