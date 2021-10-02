@@ -69,7 +69,7 @@ def main():
             )
         elif BOOL_NEW_EVAL_PERIOD:
             print(
-                f"Arbitrary Evaluation period: {blank_submission.iloc[0].name} ~ {blank_submission.iloc[-1].name}"
+                f"Arbitrary Evaluation period: {blank_submission.iloc[0].name} ~ {blank_submission.iloc[4].name}"
             )
         print(nmae(true_df, pred_df))
     elif not BOOL_PUBLIC:  # save file without evaluation

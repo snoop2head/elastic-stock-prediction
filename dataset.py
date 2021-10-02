@@ -145,6 +145,7 @@ def make_external_Data(data, start_date, end_date):
     add external data columns such as WTI, philadelphia price index, NASDAQ, S&P500, etc.
     """
 
+    # fetch economical indices using batch request to fdr
     fred_data_raw = fdr.DataReader(
         ["NASDAQCOM", "ICSA", "UNRATE", "UMCSENT", "HSN1F", "M2", "BAMLH0A0HYM2"],
         start=start_date,

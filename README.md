@@ -1,13 +1,13 @@
 # Stock Price Prediction Competition @DACON
 
-[🔗 Refer to blog post for more information](https://snoop2head.github.io/Dacon-Stock-Price-Competition/)
-
+[🔗 Refer to blog post for more experimentation notes](https://snoop2head.github.io/Dacon-Stock-Price-Competition/)
 
 ### Goal
 
-- Predicting the Closing price of 376 Korean public companies for the week of `2021-09-27 ~ 2021-10-01`.
-- Public Leaderboard was based on the Closing price of  `2021-09-01 ~ 2021-09-06`
-- There was no limitation for the data source.
+- Predicting the Closing price of 376 Korean public companies
+- Public Leaderboard was based on the Closing price of `2021-09-01 ~ 2021-09-06`
+- Private Leaderboard was based on the Closing price of `2021-09-27 ~ 2021-10-01`.
+- No limitations for the data source, but there were limitations for submissions per day.
 
 ### Result
 
