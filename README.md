@@ -9,9 +9,7 @@
 - Public Leaderboard was based on the Closing price of  `2021-09-01 ~ 2021-09-06`
 - There was no limitation for the data source.
 
-### Evaluation Result
-
-**🏆 Private Leaderboard Xth Place**
+### Result
 
 ![output](./assets/images/README/output.png)
 
