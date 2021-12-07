@@ -11,10 +11,14 @@
 
 ### Result
 
+**🥈 NMAE score of 4.44 ranked the 2nd place / 29 teams**
+
 ![output](./assets/images/README/output.png)
+
 
 ### Models' Performance
 
+ElasticNetCV model’s NMAE score outperformed Baseline’s score by 30%.
 Competition's criterion is based on NMAE. Criterion function was constructed as following:
 
 ```python
