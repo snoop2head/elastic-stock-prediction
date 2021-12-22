@@ -1,5 +1,7 @@
 # Stock Price Prediction Competition @DACON
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KnbNK-F0Px3NHCo4c5Qnedo-8cySlw_u?usp=sharing#scrollTo=s_mnm7rhxMXf)
+
 [🔗 Refer to blog post for more experimentation notes](https://snoop2head.github.io/Dacon-Stock-Price-Competition/)
 
 ### Goal
@@ -36,6 +38,10 @@ def NMAE(true_df, pred_df_input):
 | _Linear Regression<br />(Baseline Code)_ |        _4.03_        |         _-_          |        _6.42_        |
 |               RFRegressor                |         4.11         |          -           |          -           |
 |                 pmdARIMA                 |         8.81         |          -           |          -           |
+
+Model was further evaluated on November which marked similar performance as it was in September.
+
+![img](https://github.com/snoop2head/elastic-stock-prediction/blob/main/assets/images/README/PERFORMANCE_TABLE_2.png?raw=true)
 
 ### Installation
 
